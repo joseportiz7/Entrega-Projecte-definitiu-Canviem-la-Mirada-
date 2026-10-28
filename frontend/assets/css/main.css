@@ -1,31 +1,63 @@
-
-
+/* Estils al total */
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background-color: #f0f0f0;
+}
+/* Capçalera */
 header {
-    height: 100px;
-    align-items: row;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
     background-color: rgb(188, 185, 185);
 }
 
+/* Main landing page */
+
 main {
+    padding: 0 5%;
+}
+
+.section-1 {
+    padding: 0 5%;
+    background-color: rgb(162, 162, 225);
+    width: 100%;
+    height: 400px;
+}
+
+.btns-section1 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.btn-section1-demanar-ajuda {
+    width: 195px;
+    height: 44px;
+}
+
+.btn-section1-vull-entendre-que-passa {
+    width: 228px;
+    height: 44px;
+}
+
+.section-1-textextra {
+    /* De moment ho deixaré buit per després personalitzar el meu estil */
+}
+
+.section-2 {
 
 }
 
-#section1 {
+.section-3 {
 
 }
 
-#section2 {
+section-4 {
 
 }
 
-#section3 {
-
-}
-
-#section4 {
-
-}
+/* Ending */
 
 footer{
-
+    padding: 0 5%;
 }
